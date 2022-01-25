@@ -1,0 +1,214 @@
+body
+{
+    background-color: white;
+}
+
+
+/* První stránka */
+
+.MyJob
+{
+    font-size: 17px;
+    font-family: 'Vesper Libre', serif;
+    color: white;
+    position: relative;
+    margin-top: 5%;
+    margin-left: 5%;
+    
+}
+
+.FirstName
+{
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Comic Neue', cursive;
+    
+    font-size: 26px;
+    color: white;
+    margin-left: 5%;
+    
+}
+.BackGround
+{
+    background-color: #4B5367;
+    
+    
+}
+
+.FirstPage
+{
+    background-color: #3D4352;
+    border: solid black;
+    height: 400px;
+}
+
+/* První stránka Konec */
+
+
+/* Druhá stránka */
+.SecondPage
+{
+    background-color: #2C313C; 
+    color: white;
+    border: solid black;
+    height: 600px;
+}
+
+.AboutME
+{
+    margin-left: 20%;
+    font-size: 30px;
+}
+
+.SecondPageFirstText,.SecondPageSecondText
+{
+    margin-left: 28%;
+    
+}
+
+.SecondPageFirstText
+{
+    margin-top: 5%;
+}
+
+.LineSecondPage
+{
+    border: solid 1px  white;
+    width: 1px;
+    height: 80%;
+    float: left;
+    margin-left: 25%;
+    background-color: white;
+}
+
+/* Druhá stránka Konec */
+
+
+
+
+/*Třetí stránka*/
+.ThirdPage
+{
+background-color: #3D4352;
+border: solid 3px black;
+color: white;
+clear:both;
+height: 1000px;
+
+}
+
+.Skills
+{
+    font-size: 30px;
+    margin-left: 20%;
+
+}
+
+.marginLeftSkills
+{
+    margin-left:28% ;
+}
+.li{
+    float: left;
+    margin: 0;
+    
+    
+    
+}
+.LanguageFloat
+{
+    float: left;
+}
+
+.HTMLDiv
+{
+    clear:both;
+    margin-left: 28%;
+}
+
+.LiSkills
+{
+    font-size: 35px;
+    margin-left: 10%;
+}
+
+.colorLiBlue
+{
+    color: #00B1FF;
+}
+
+.colorLiyellow
+{
+    color: #EBFF00;
+}
+
+.colorLiGreen
+{
+    color: #00FF3B;
+}
+
+.colorLiOrange
+{
+    color: #FF5800 ;
+}
+.colorLiDarkGreen
+{
+    color: #BA6A74;
+}
+
+.colorLiDarkBlue
+{
+   color: #006CFF;
+}
+.colorLiPink
+{
+    color: #E200FF;
+}
+
+.colorLiBlack
+{
+    color: black;
+}
+
+.colorLiLightGreen
+{
+    color: #00FF80 ;
+}
+
+.colorLiRed
+{
+    color: #FF0000;
+}
+
+
+.EducationTitle
+{
+    font-size: 20px;
+    margin-left: 28%;
+}
+
+.Learne2Code
+{
+    margin-left: 30%;
+    float: left;
+}
+
+.Itnetwork
+{
+    margin-left: 60%;
+}
+
+
+.LineThirdPage
+{
+    border: solid 1px  white;
+    width: 1px;
+    height: 80%;
+    float: left;
+    margin-left: 25%;
+    background-color: white;
+}
+
+
+/* Třetí stránka Konec */
+
+
