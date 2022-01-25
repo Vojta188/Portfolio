@@ -1,6 +1,6 @@
 body
 {
-    background-color: white;
+    background-color: #2C313C;
 }
 
 
@@ -23,7 +23,7 @@ body
     font-family: 'Comic Neue', cursive;
     
     font-size: 26px;
-    color: white;
+    color: white; 
     margin-left: 5%;
     
 }
@@ -37,7 +37,7 @@ body
 .FirstPage
 {
     background-color: #3D4352;
-    border: solid black;
+    border: solid #3D4352;
     height: 400px;
 }
 
@@ -49,7 +49,7 @@ body
 {
     background-color: #2C313C; 
     color: white;
-    border: solid black;
+    border: solid #2C313C;
     height: 600px;
 }
 
@@ -86,10 +86,24 @@ body
 
 
 /*Třetí stránka*/
+
+.LineThirdPage
+
+{
+    border: solid 1px  white;
+    width: 1px;
+    height: 70%;
+    float: left;
+    margin-left: 25%;
+    background-color: white;
+}
+
+
+
 .ThirdPage
 {
 background-color: #3D4352;
-border: solid 3px black;
+border: solid 3px #3D4352;
 color: white;
 clear:both;
 height: 1000px;
@@ -196,9 +210,100 @@ height: 1000px;
 {
     margin-left: 60%;
 }
+/* Třetí stránka Konec */
 
 
-.LineThirdPage
+
+
+/* Čtvrtá stránka */
+.FourthPage
+{
+    background-color: #2C313C;
+    border: solid 3px #2C313C;
+    color: white;
+    height: 400px;
+}
+
+.Pricing
+{
+    margin-left: 20%;
+    font-size: 30px;
+}
+
+.FourthPageText
+{
+    margin-left: 28%;
+    margin-top: 5%;
+}
+
+.LineFourthPage
+{
+    border: solid 1px  white;
+    width: 1px;
+    height: 60%;
+    float: left;
+    margin-left: 25%;
+    background-color: white;
+    margin-top: 2%;
+}
+/* Čtvrtá stránka Konec */
+
+
+/* Pátá stránka*/
+.FifthPage
+{
+    background-color: #3D4352;
+    border: solid 3px #3D4352;
+    color: white;
+    height: 1000px;
+}
+
+.MyProject
+{
+    margin-left: 20%;
+    font-size: 30px;
+}
+.FifthPageText
+{
+    margin-left: 28%;
+    
+}
+
+.Projects
+{
+    margin-left: 28%;
+    font-size: 20px;
+}
+.btn
+{
+    margin-left: 28%;
+    padding: 1%;
+    background-color: tomato;
+    cursor: pointer;
+}
+.btn:hover
+{
+    background-color:#FFA384;    ;
+}
+
+.MyGame
+{
+    margin-left: 28%;
+}
+
+.MyGameTitle
+{
+    font-size: 25px;
+}
+
+a
+{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.LineFifthPage
 {
     border: solid 1px  white;
     width: 1px;
@@ -206,9 +311,294 @@ height: 1000px;
     float: left;
     margin-left: 25%;
     background-color: white;
+    
+}
+/* Pátá stránka Konec */
+
+/* Šestá stránka*/
+.SixthPage
+{
+    color: white;
+    background-color:#2C313C ;
+    border: solid 3px #2C313C;
+    height: 650px;
+}
+
+.Contact
+{
+    font-size: 30px;
+    margin-left: 20%;
+}
+
+.LabelBox
+{
+    margin-left: 28%;
+    
+}
+
+textarea
+{
+    background-color:#2C313C ;
+    color: white;
+    border: 1px solid white;
+}
+
+.NameandEmail
+{
+    background-color:#2C313C ;
+    color: white;
+    border: 1px solid white;
+    width: 25%;
+    height: 20px;
+}
+
+.sendBtn
+{
+    margin-left: 15%;
+    width: 150px ;
+    height: 30px;
+    background-color: #FF6200;
+    cursor: pointer;
+    border: 1px #707070;
+    border-radius: 4px;
 }
 
 
-/* Třetí stránka Konec */
+.Footer
+{
+    margin-top: 5%;
+    margin-left: 20%;
+}
+
+.footerpictures
+{
+    width: 40px;
+    height: 40px;
+}
+
+.OrangeLineFoot
+{
+    border: solid 1px  #FF4500;
+    width: 550px;
+    height: 8px;
+    border-radius: 10px;
+    
+    background-color: #FF4500;
+    margin-top: 2%;
+}
+
+.LineSixPage
+{
+    border: solid 1px  white;
+    width: 1px;
+    height: 47%;
+    float: left;
+    margin-left: 25%;
+    background-color: white;
+    
+}
+/* Šestá stránka Konec */
+
+
+
+
+
+
+
+
+
+
+/* Geometrické obrazce*/
+/* First Page */
+.obrazceFirstPage
+{
+    position: relative;
+    margin-left:50% ;
+    
+   
+}
+
+.pngFirstPage1
+{
+    position: absolute;
+    width: 60%;
+    bottom: 130px;
+    left: -100px;
+    
+    
+}
+
+.pngFirstPage2
+{
+    position: absolute;
+    height: 150px;
+    left: -100px;
+}
+
+.pngFirstPage3
+{
+    position: absolute;
+    width: 15%;
+    height: 300px;
+    left: 100px;
+    top: -130px;
+    
+
+}
+
+/* First Page Konec */
+
+/* Second Page */
+.pngSecondPage1
+{
+    position: absolute;
+    width: 25%;
+    top: 900px;
+    right: 600px;
+}
+.pngSecondPage2
+{
+    position: absolute;
+    
+    top: 700px;
+    right: 600px;
+}
+/* Second Page Konec */
+
+
+/* Third Page */
+.pngThirdPage1
+{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    top: 1500px;
+    left: 2%;
+}
+
+.pngThirdPage2
+{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    top: 1600px;
+    left: 2%;
+}
+
+.pngThirdPage3
+{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    top: 1100px;
+    left: 80%;
+}
+/* Third Page Konec */
+
+
+
+/* Fourth Page */
+.pngFourthPage1
+{
+    position: absolute;
+    top:2050px;
+    left: 80%;
+    width: 50px;
+    height: 50px;
+}
+
+.pngFourthPage2
+{
+    position: absolute;
+    top:2050px;
+    left: 60%;
+    width: 50px;
+    height: 50px;
+}
+
+.pngFourthPage3
+{
+    position: absolute;
+    top:2050px;
+    left: 60%;
+    width: 400px;
+    height: 10px;
+}
+/* Fourth Page Konec */
+
+/* Fifth Page */
+.pngFifthPage1
+{
+    position: absolute;
+    top: 2700px;
+    height: 40px;
+}
+
+.pngFifthPage2
+{
+    position: absolute;
+    top: 2740px;
+    height: 200px;
+    width: 40px;
+    left: 100px;
+}
+
+
+.pngFifthPage3
+{
+    position: absolute;
+    top: 2740px;
+    width: 100px;
+    height: 100px;
+    left: 75%;
+}
+
+.pngFifthPage4
+{
+    position: absolute;
+    top: 2700px;
+    width: 300px;
+    height: 300px;
+    left: 70%;
+}
+/* Fifth Page Konec */
+
+
+/* Sixth Page */
+.pngSixthPage1
+{
+    position: absolute;
+    top: 3600px;
+    width: 150px;
+    height: 150px;
+    left: 2%;
+
+}
+
+.pngSixthPage2
+{
+    position: absolute;
+    top: 3650px;
+    width: 150px;
+    height: 150px;
+    left: 5%;
+
+}
+
+.pngSixthPage3
+{
+    position: absolute;
+    top: 3500px;
+    width: 100px;
+    height: 100px;
+    left: 80%;
+
+}
+
+/* Sixth Page Konec */
+
+
+/* Geometrické obrazce Konec */
+
 
 
