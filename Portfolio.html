@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
+
+<script src="contact.js"></script>
 <link rel="stylesheet" href="Styles.css">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -283,6 +285,7 @@
         <div class="LineSixPage"></div>
         <div>
         <div class="LabelBox">
+            <form action="mailto:vojtechvrabec12@gmail.com" name="myForm" onsubmit="return validateForm()" method="post" enctype="text/plain" >
         <div class = "name">
             <div>
                 <label>Name</label>
@@ -307,8 +310,8 @@
         </div>
     </div>
         
-            <input type="button" id="send" name="send" value="Send" class = "sendBtn">
-        
+            <input type="submit" id="send" name="send" value="Send" class = "sendBtn">
+        </form>
         </div>
         <div class = "Footer">
             <div class = "MyNameFoot">
